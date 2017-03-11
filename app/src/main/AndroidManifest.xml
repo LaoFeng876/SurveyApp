@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fengzc.surveyapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Q1Activity" />
+        <activity android:name=".Q2Activity" />
+        <activity android:name=".Q3Activity" />
+        <activity android:name=".Q4Activity" />
+        <activity android:name=".Q5Activity" />
+        <activity android:name=".Q6Activity" />
+        <activity android:name=".Q7Activity" />
+        <activity android:name=".Q8Activity" />
+        <activity android:name=".Q9Activity" />
+        <activity android:name=".Q10Activity" />
+        <activity android:name=".Q11Activity" />
+        <activity android:name=".Q12Activity" />
+        <activity android:name=".FinishActivity"></activity>
+    </application>
+
+</manifest>
